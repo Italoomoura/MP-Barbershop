@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin: 0;
+    background-image: url(img/fundo.png);
+    background-size: contain;
+}
+#top{
+    width: auto;
+}
+nav{
+    background-color: rgba(24,32,34,255);
+}
+.space-between{
+    justify-content: space-between;
+}
+.container{
+    margin: 0;
+    display: flex;
+}
+.item{
+    margin: 0px 5px;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+.img-logo{
+    border-radius: 50%;
+    max-width: 60%;
+}
+.tel{
+    width: auto;
+    color: white;
+    flex-flow: column wrap;
+    display: flex;
+    margin: 0px 10px 0px 0px;
+    align-items: center;
+}
+.tel .item{
+    margin-top: 5px;
+}
+.tel .telzap a, #bottom .tel a{
+    color: white;
+    margin: 0px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.row{
+    flex-flow: row wrap;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+li{
+    float: left;
+    padding: 0;
+    margin: 10px 10px;
+}
+li a{
+    display: inline-block;
+    color: white;
+    padding: 1px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li a:hover{
+    border-bottom: 4px solid rgb(151, 82, 39);
+    border-right: 4px solid rgb(151, 82, 39);
+}
+
+.header{
+    background-color: rgb(151, 82, 39);
+}
+.itens-header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2% 10%;
+}
+.img-mp-club{
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-mp-club img{
+    border-radius: 2%;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.192), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
+.polaroid {
+    font-family: 'Ubuntu', sans-serif;
+    width: 400px;
+    border-radius: 2%;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.card{
+    font-family: 'Ubuntu', sans-serif;
+    width: 20%;
+    border-radius: 2%;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.corpo{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.corpo-itens{
+    margin: 5%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.img-left{
+    float: left;
+    border: 1px solid rgb(151, 82, 39);
+    box-shadow: 7px 7px 0 rgb(151, 82, 39);
+    width: 40%;
+}
+.img-right{
+    float: right;
+    border: 1px solid rgb(151, 82, 39);
+    box-shadow: -7px 7px 0 rgb(151, 82, 39);
+    width: 40%;
+}
+.paragrafo{
+    display: flex;
+    padding: 5%;
+    text-align: center;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.paragrafo h2{
+    text-decoration: underline;
+}
+#bottom{
+    width: auto;
+}
+#bottom .tel{
+    text-decoration: none;
+    flex-flow: row wrap;
+}
+.crd{
+    margin: 5px 15px;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+}
+#sobre{
+    padding-top: 5%;
+}
+#agendar{
+    padding-top: 5%;
+}
+#contatos{
+    padding-top: 5%;
+}
+.contatos a, .agendar a{
+    background-color: rgb(151, 82, 39);
+    padding: 2%;
+    border-radius: 6%;
+    color: white;
+    margin: 0px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.contatos a:hover, .agendar a:hover{
+    background-color: rgb(122, 65, 30);
+    padding: 3%;
+}
+
+@media only screen and (min-width:320px)  {
+    /* smartphones, iPhone, portrait 480x320 phones */ 
+    
+}
+@media only screen and (min-width:481px)  {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+}
+@media only screen and (min-width:641px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+
+}
+@media only screen and (min-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+
+}
+@media only screen and (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+
+}
+@media only screen and (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+
+}
